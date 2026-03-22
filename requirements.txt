@@ -1,0 +1,8 @@
+accelerate
+datasets
+icecream
+ipykernel
+pytest
+torch
+transformers
+trl
