@@ -13,3 +13,5 @@ wheels/
 
 data/
 qwen3-finetuned/
+checkpoint_models/
+checkpoint_models1/
