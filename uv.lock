@@ -765,6 +765,7 @@ dependencies = [
     { name = "pytest" },
     { name = "torch" },
     { name = "transformers" },
+    { name = "trl" },
 ]
 
 [package.metadata]
@@ -776,6 +777,7 @@ requires-dist = [
     { name = "pytest", specifier = ">=9.0.2" },
     { name = "torch", specifier = ">=2.10.0" },
     { name = "transformers", specifier = ">=5.3.0" },
+    { name = "trl", specifier = ">=0.29.1" },
 ]
 
 [[package]]
@@ -2250,6 +2252,21 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/35/f8/9c66bfc55361ec6d0e4040a0337fb5924ceb23de4648b8a81ae9d33b2b38/triton-3.6.0-cp313-cp313t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:d002e07d7180fd65e622134fbd980c9a3d4211fb85224b56a0a0efbd422ab72f", size = 188400296, upload-time = "2026-01-20T16:00:56.042Z" },
     { url = "https://files.pythonhosted.org/packages/df/3d/9e7eee57b37c80cec63322c0231bb6da3cfe535a91d7a4d64896fcb89357/triton-3.6.0-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:a17a5d5985f0ac494ed8a8e54568f092f7057ef60e1b0fa09d3fd1512064e803", size = 188273063, upload-time = "2026-01-20T16:01:07.278Z" },
     { url = "https://files.pythonhosted.org/packages/f6/56/6113c23ff46c00aae423333eb58b3e60bdfe9179d542781955a5e1514cb3/triton-3.6.0-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:46bd1c1af4b6704e554cad2eeb3b0a6513a980d470ccfa63189737340c7746a7", size = 188397994, upload-time = "2026-01-20T16:01:14.236Z" },
+]
+
+[[package]]
+name = "trl"
+version = "0.29.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "accelerate" },
+    { name = "datasets" },
+    { name = "packaging" },
+    { name = "transformers" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3f/01/87b09019a9be4c73f8fb07ac9db1dccbeb78743fc17b6f3175ebe0a31a70/trl-0.29.1.tar.gz", hash = "sha256:12df5aa22d1deb26942cafdf4cfd75f53d7141942e70c4dc0966687a3617813b", size = 453604, upload-time = "2026-03-20T03:43:34.578Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c7/3b/33226ae50a36f718e1107ece0c91b016457bb4b956d1cb5bd7078c04de9c/trl-0.29.1-py3-none-any.whl", hash = "sha256:f9490cd1af93f3dce1cfdfe0fa1de108dbc46a2f6c2f90485cc2b4021c43eef3", size = 530959, upload-time = "2026-03-20T03:43:33.02Z" },
 ]
 
 [[package]]

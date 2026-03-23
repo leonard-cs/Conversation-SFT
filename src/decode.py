@@ -36,7 +36,10 @@ def process_messages(data):
         # Remove message with "Liked a message"
         content = data.get("content")
         if content and (
-            content == "Liked a message" or "sent an attachment" in content
+            content == "Liked a message" or 
+            "sent an attachment" in content or 
+            "audio call" in content or 
+            "Audio call" in content
         ):
             return None
 
